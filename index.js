@@ -1,4 +1,5 @@
-const { default: makeWASocket, useMultiFileAuthState } = require('@whiskeysockets/baileys')
+require('http').createServer((req,res)=>res.end('ANITA-MD-V2 ONLINE 👑')).listen(process.env.PORT || 3000)
+  const { default: makeWASocket, useMultiFileAuthState } = require('@whiskeysockets/baileys')
 const P = require('pino')
 
 async function startBot() {
